@@ -40,7 +40,7 @@ function moveOnce () {
 function slither () {
   if (checkHits()) {
     makeSnake(false);
-    alert('You hit something');
+    alert('You hit something!');
     tryAgain.classList.remove('nodisplay');
     return clearInterval(interval);
   } else {
