@@ -147,6 +147,7 @@ function restart () {
     }
   }
   currentScore = 0;
+  currentScoreDisplay.innerText = `Score: ${currentScore}`;
   direction = 1;
   intervalTime = 250;
   snake = [143, 142, 141, 140];
