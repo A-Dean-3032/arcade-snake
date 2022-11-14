@@ -50,6 +50,7 @@ body {
     height: 512px;
     max-width: 512px;
     max-height: 512px;
+    /* https://destroytoday.com/blog/checkered-pattern-for-loading-images-revisited */
     background-image:
         linear-gradient(45deg, #8373EB 25%, transparent 25%), 
         linear-gradient(135deg, #8373EB 25%, transparent 25%),
@@ -78,6 +79,10 @@ body {
     background-color: #AFF8D8;
 }
 
+.dead_snake {
+    background-color: red;
+}
+
 .apple {
-    background-image: url('red-apple.png');
+    background-image: url('red-apple.jpeg');
 }
